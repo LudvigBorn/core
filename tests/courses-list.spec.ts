@@ -11,6 +11,4 @@ test('create delete course list', async ({ page }) => {
   await expect(page.getByText('testtestУдалить')).toBeVisible();
   await page.getByRole('button', { name: 'Удалить' }).click();
   await expect(page.getByText('testtestУдалить')).not.toBeVisible();
-
-
 });
