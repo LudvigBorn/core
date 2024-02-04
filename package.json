@@ -12,6 +12,8 @@
     "test:e2e": "playwright test",
     "prettier": "prettier -w ."
   },
+
+
   "dependencies": {
     "@hookform/resolvers": "^3.3.4",
     "@prisma/client": "^5.9.1",

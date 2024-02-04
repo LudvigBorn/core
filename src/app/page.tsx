@@ -12,6 +12,7 @@ export default async function Home() {
   console.log(courses);
   return (
     <main className="flex min-h-screen flex-col p-24">
+      <h1>Courses</h1>
       <CreateCourseForm revalidatePagePath="/" className="max-w-[300px] mb-4"/>
       <CoursesList revalidatePagePath="/"/>
     </main>
