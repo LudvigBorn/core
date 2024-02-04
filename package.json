@@ -8,9 +8,12 @@
     "start": "next start",
     "lint": "next lint",
     "lint:types": "tsc --noEmit",
-    "prettier": "prettier -w .",
-    "test": "jest"
+    "test": "jest",
+    "test:e2e": "playwright test",
+    "prettier": "prettier -w ."
   },
+
+
   "dependencies": {
     "@hookform/resolvers": "^3.3.4",
     "@prisma/client": "^5.9.1",
